@@ -1,5 +1,5 @@
 import axios from "axios";
-const URL = "https://7fd4-103-251-50-170.in.ngrok.io"
+const URL = "https://55f6-103-251-50-170.in.ngrok.io"
 
 const getProducts = async () => {
     return axios.get(`${URL}/getProducts`).then(res => res.data)
